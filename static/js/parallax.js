@@ -1853,13 +1853,10 @@ function startAllParaSystems() {
 		};
 
 		resizeables.initFromDescript(aRCDescript);
-
 		nonParaResize();
-
 		if (parallax) {
 			para.init();
 		}
-
 	}
 	
 	if(paraSample.preloaderEnabled){
@@ -1872,5 +1869,4 @@ function startAllParaSystems() {
 	if(paraSample.preloaderEnabled){
 		preloader.start();
 	}
-
 };
